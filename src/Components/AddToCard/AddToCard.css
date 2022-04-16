@@ -1,0 +1,13 @@
+.custom-table>:not(caption)>*>*{
+    border: none!important;
+    border-width: 0 0px !important;
+}
+td{
+    border-width: 0 0px !important;
+}
+.table-bordered>:not(caption)>*>* {
+    border-width: 0 0px !important;
+}
+.custom-table-header{
+    border-bottom: 5px solid black !important;
+}
