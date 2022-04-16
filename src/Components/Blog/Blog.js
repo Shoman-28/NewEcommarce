@@ -1,5 +1,28 @@
 import React from 'react';
+import './Blog.css';
 import { Link } from 'react-router-dom';
+import standard17 from '../../image/blog/standard/17.jpg';
+import standard10 from '../../image/blog/standard/10.jpg';
+import standard20 from '../../image/blog/standard/20.jpg';
+import standard21 from '../../image/blog/standard/21.jpg';
+
+import small2 from '../../image/blog/small/2.jpg';
+import small3 from '../../image/blog/small/3.jpg';
+import small61 from '../../image/blog/small/6-1.jpg';
+import small62 from '../../image/blog/small/6-2.jpg';
+import small12 from '../../image/blog/small/12.jpg';
+import small121 from '../../image/blog/small/12-1.jpg';
+import small13 from '../../image/blog/small/13.jpg';
+import small18 from '../../image/blog/small/18.jpg';
+import small19 from '../../image/blog/small/19.jpg';
+
+import smalls1  from '../../image/magazine/small/1.jpg';
+import smalls2  from '../../image/magazine/small/2.jpg';
+import smalls3  from '../../image/magazine/small/3.jpg';
+
+import avater from "../../image/icons/avatar.jpg";
+
+import portfolio from "../../image/portfolio/4/3.jpg";
 
 const Blog = () => {
     return (
@@ -39,7 +62,7 @@ const Blog = () => {
                             <div class="timeline-divider"></div>
                         </div>
                         <div class="entry-image">
-                            <a href="images/blog/full/17.jpg" data-lightbox="image"><img src="images/blog/standard/17.jpg" alt="Standard Post with Image"/></a>
+                            <a href="images/blog/full/17.jpg" data-lightbox="image"><img src={standard17} alt="Standard Post with Image"/></a>
                         </div>
                         <div class="entry-title">
                             <h2><a href="blog-single.html">This is a Standard post with a Preview Image</a></h2>
@@ -93,9 +116,9 @@ const Blog = () => {
                             <div class="fslider" data-arrows="false" data-lightbox="gallery">
                                 <div class="flexslider">
                                     <div class="slider-wrap">
-                                        <div class="slide"><a href="images/blog/full/10.jpg" data-lightbox="gallery-item"><img src="images/blog/standard/10.jpg" alt="Standard Post with Gallery"/></a></div>
-                                        <div class="slide"><a href="images/blog/full/20.jpg" data-lightbox="gallery-item"><img src="images/blog/standard/20.jpg" alt="Standard Post with Gallery"/></a></div>
-                                        <div class="slide"><a href="images/blog/full/21.jpg" data-lightbox="gallery-item"><img src="images/blog/standard/21.jpg" alt="Standard Post with Gallery"/></a></div>
+                                        <div class="slide"><a href="images/blog/full/10.jpg" data-lightbox="gallery-item"><img src={standard10} alt="Standard Post with Gallery"/></a></div>
+                                        <div class="slide"><a href="images/blog/full/20.jpg" data-lightbox="gallery-item"><img src={standard20} alt="Standard Post with Gallery"/></a></div>
+                                        <div class="slide"><a href="images/blog/full/21.jpg" data-lightbox="gallery-item"><img src={standard21} alt="Standard Post with Gallery"/></a></div>
                                     </div>
                                 </div>
                             </div>
@@ -145,15 +168,15 @@ const Blog = () => {
                         </div>
                         <div class="entry-image clearfix">
                             <div class="portfolio-single-image masonry-thumbs grid-container grid-6" data-big="3" data-lightbox="gallery">
-                                <a class="grid-item" href="images/blog/full/2.jpg" data-lightbox="gallery-item"><img src="images/blog/small/2.jpg" alt="Image"/></a>
-                                <a class="grid-item" href="images/blog/full/3.jpg" data-lightbox="gallery-item"><img src="images/blog/small/3.jpg" alt="Image"/></a>
-                                <a class="grid-item" href="images/blog/full/6-1.jpg" data-lightbox="gallery-item"><img src="images/blog/small/6-1.jpg" alt="Image"/></a>
-                                <a class="grid-item" href="images/blog/full/6-2.jpg" data-lightbox="gallery-item"><img src="images/blog/small/6-2.jpg" alt="Image"/></a>
-                                <a class="grid-item" href="images/blog/full/12.jpg" data-lightbox="gallery-item"><img src="images/blog/small/12.jpg" alt="Image"/></a>
-                                <a class="grid-item" href="images/blog/full/12-1.jpg" data-lightbox="gallery-item"><img src="images/blog/small/12-1.jpg" alt="Image"/></a>
-                                <a class="grid-item" href="images/blog/full/13.jpg" data-lightbox="gallery-item"><img src="images/blog/small/13.jpg" alt="Image"/></a>
-                                <a class="grid-item" href="images/blog/full/18.jpg" data-lightbox="gallery-item"><img src="images/blog/small/18.jpg" alt="Image"/></a>
-                                <a class="grid-item" href="images/blog/full/19.jpg" data-lightbox="gallery-item"><img src="images/blog/small/19.jpg" alt="Image"/></a>
+                                <a class="grid-item" href="images/blog/full/2.jpg" data-lightbox="gallery-item"><img src={small2} alt="Image"/></a>
+                                <a class="grid-item" href="images/blog/full/3.jpg" data-lightbox="gallery-item"><img src={small3} alt="Image"/></a>
+                                <a class="grid-item" href="images/blog/full/6-1.jpg" data-lightbox="gallery-item"><img src={small61} alt="Image"/></a>
+                                <a class="grid-item" href="images/blog/full/6-2.jpg" data-lightbox="gallery-item"><img src={small62} alt="Image"/></a>
+                                <a class="grid-item" href="images/blog/full/12.jpg" data-lightbox="gallery-item"><img src={small12} alt="Image"/></a>
+                                <a class="grid-item" href="images/blog/full/12-1.jpg" data-lightbox="gallery-item"><img src={small121} alt="Image"/></a>
+                                <a class="grid-item" href="images/blog/full/13.jpg" data-lightbox="gallery-item"><img src={small13} alt="Image"/></a>
+                                <a class="grid-item" href="images/blog/full/18.jpg" data-lightbox="gallery-item"><img src={small18} alt="Image"/></a>
+                                <a class="grid-item" href="images/blog/full/19.jpg" data-lightbox="gallery-item"><img src={small19} alt="Image"/></a>
                             </div>
                         </div>
                         <div class="entry-title">
@@ -288,7 +311,7 @@ const Blog = () => {
                                             <div class="grid-inner row g-0">
                                                 <div class="col-auto">
                                                     <div class="entry-image">
-                                                        <a href="#"><img class="rounded-circle" src="images/magazine/small/3.jpg" alt="Image"/></a>
+                                                        <a href="#"><img class="rounded-circle" src={smalls3} alt="Image"/></a>
                                                     </div>
                                                 </div>
                                                 <div class="col ps-3">
@@ -308,7 +331,7 @@ const Blog = () => {
                                             <div class="grid-inner row g-0">
                                                 <div class="col-auto">
                                                     <div class="entry-image">
-                                                        <a href="#"><img class="rounded-circle" src="images/magazine/small/2.jpg" alt="Image"/></a>
+                                                        <a href="#"><img class="rounded-circle" src={smalls2} alt="Image"/></a>
                                                     </div>
                                                 </div>
                                                 <div class="col ps-3">
@@ -328,7 +351,7 @@ const Blog = () => {
                                             <div class="grid-inner row g-0">
                                                 <div class="col-auto">
                                                     <div class="entry-image">
-                                                        <a href="#"><img class="rounded-circle" src="images/magazine/small/1.jpg" alt="Image"/></a>
+                                                        <a href="#"><img class="rounded-circle" src={smalls1} alt="Image"/></a>
                                                     </div>
                                                 </div>
                                                 <div class="col ps-3">
@@ -351,7 +374,7 @@ const Blog = () => {
                                             <div class="grid-inner row g-0">
                                                 <div class="col-auto">
                                                     <div class="entry-image">
-                                                        <a href="#"><img class="rounded-circle" src="images/magazine/small/1.jpg" alt="Image"/></a>
+                                                        <a href="#"><img class="rounded-circle" src={smalls1} alt="Image"/></a>
                                                     </div>
                                                 </div>
                                                 <div class="col ps-3">
@@ -371,7 +394,7 @@ const Blog = () => {
                                             <div class="grid-inner row g-0">
                                                 <div class="col-auto">
                                                     <div class="entry-image">
-                                                        <a href="#"><img class="rounded-circle" src="images/magazine/small/2.jpg" alt="Image"/></a>
+                                                        <a href="#"><img class="rounded-circle" src={smalls2} alt="Image"/></a>
                                                     </div>
                                                 </div>
                                                 <div class="col ps-3">
@@ -391,7 +414,7 @@ const Blog = () => {
                                             <div class="grid-inner row g-0">
                                                 <div class="col-auto">
                                                     <div class="entry-image">
-                                                        <a href="#"><img class="rounded-circle" src="images/magazine/small/3.jpg" alt="Image"/></a>
+                                                        <a href="#"><img class="rounded-circle" src={smalls3} alt="Image"/></a>
                                                     </div>
                                                 </div>
                                                 <div class="col ps-3">
@@ -427,7 +450,7 @@ const Blog = () => {
                                             <div class="grid-inner row g-0">
                                                 <div class="col-auto">
                                                     <div class="entry-image">
-                                                        <a href="#"><img class="rounded-circle" src="images/icons/avatar.jpg" alt="User Avatar"/></a>
+                                                        <a href="#"><img class="rounded-circle" src={avater} alt="User Avatar"/></a>
                                                     </div>
                                                 </div>
                                                 <div class="col ps-3">
@@ -440,7 +463,7 @@ const Blog = () => {
                                             <div class="grid-inner row g-0">
                                                 <div class="col-auto">
                                                     <div class="entry-image">
-                                                        <a href="#"><img class="rounded-circle" src="images/icons/avatar.jpg" alt="User Avatar"/></a>
+                                                        <a href="#"><img class="rounded-circle" src={avater} alt="User Avatar"/></a>
                                                     </div>
                                                 </div>
                                                 <div class="col ps-3">
@@ -466,7 +489,7 @@ const Blog = () => {
                                 <div class="portfolio-item">
                                     <div class="portfolio-image">
                                         <a href="#">
-                                            <img src="images/portfolio/4/3.jpg" alt="Mac Sunglasses"/>
+                                            <img src={portfolio} alt="Mac Sunglasses"/>
                                         </a>
                                         <div class="bg-overlay">
                                             <div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
@@ -486,7 +509,7 @@ const Blog = () => {
                                 <div class="portfolio-item">
                                     <div class="portfolio-image">
                                         <a href="portfolio-single.html">
-                                            <img src="images/portfolio/4/1.jpg" alt="Open Imagination"/>
+                                            <img src={portfolio} alt="Open Imagination"/>
                                         </a>
                                         <div class="bg-overlay">
                                             <div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
