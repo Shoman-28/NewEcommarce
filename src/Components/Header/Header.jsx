@@ -7,7 +7,7 @@ import {
   faTimes,
   faUser,
 } from "@fortawesome/free-solid-svg-icons";
-
+import logo from '../../image/logo.png'
 
 const Header = () => {
   
@@ -21,7 +21,7 @@ const Header = () => {
           <div className="header-row align-items-center-stretch">
             <div id="logo">
               <a href="/" className="standard-logo">
-                <img src="../../images/logo.png" alt="Canvas" />
+                <img src={logo} alt="Ecommarce" />
               </a>
             </div>
             <div className="header-misc align-items-center-stretch">
