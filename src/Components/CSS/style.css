@@ -6535,7 +6535,7 @@ body:not(.device-touch) .entry-link {
   }
   .post-timeline .entry-timeline span {
     display: block;
-    margin-top: 3px;
+    margin-top: 12px;
     font-size: 13px;
     font-weight: 400;
   }
