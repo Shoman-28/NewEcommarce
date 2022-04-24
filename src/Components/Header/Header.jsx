@@ -11,12 +11,12 @@ import {
 import logo from '../../image/logo.png'
 
 import { faAlignJustify } from "@fortawesome/free-solid-svg-icons";
+import SearchBox from "./SearchBox";
 
 const Header = () => {
   const [Style, setStyle] = useState(true);
-
   const [show, setShow] = useState(true);
-console.log(Style, "onclick")
+
 
 
 
@@ -30,31 +30,17 @@ console.log(Style, "onclick")
                 <img src={logo} alt="Ecommarce" />
               </a>
             </div>
-            {/* <div className={!Style && "showNavBar"} id="sideNav"> */}
             <div className={!Style && "ShowNavBAr"}>
                 <Navications value={{ Style, setStyle }}/>
             </div>
-            
+
+            {/*======== SearchBox======== */}
+            <SearchBox searcButton={{show, setShow}}/>
+
             <div className="header-misc align-items-center-stretch">
               
               
-              <div id="menuBtn" className="header-misc-icon">
-                <FontAwesomeIcon
-                    onClick={() => setStyle(!Style)}
-                    icon={faAlignJustify}
-                    
-                  />
-              </div>
-                
-                  <HeaderCard />
-              <div className="header-misc-icon">
-                <span>
-                
-                    <FontAwesomeIcon icon={faUser} />
-                  
-                </span>
-              </div>
-
+             
               <div className="header-misc-icon" >
                 <span   style={{cursor:"pointer"}}>
                   {
@@ -71,6 +57,24 @@ console.log(Style, "onclick")
                 </span>
               
               </div>
+                
+                  <HeaderCard />
+              <div className="header-misc-icon">
+                <span>
+                
+                    <FontAwesomeIcon icon={faUser} />
+                  
+                </span>
+              </div>
+
+              <div id="menuBtn" className="header-misc-icon">
+                <FontAwesomeIcon
+                    onClick={() => setStyle(!Style)}
+                    icon={faAlignJustify}
+                    
+                  />
+              </div>
+
             </div>
           </div>
         </div>

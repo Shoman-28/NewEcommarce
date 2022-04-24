@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 
 const Navications = (props) => {
   const {Style, setStyle}=props.value;
-  console.log(Style,"velue")
+
+  
   return (
     <nav id="sideNav" className={!Style && "showNavBar"}>
       

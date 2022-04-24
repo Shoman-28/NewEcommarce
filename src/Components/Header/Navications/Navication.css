@@ -1,82 +1,74 @@
-.showNavBar{
-    
-    right: 0px !important;;
+
+.showNavBar {
+  right: 0px !important;
 }
 
-#menuBtn{
-    display: none;
+#menuBtn {
+  display: none;
 }
 
-
-
-ul li{
-    list-style: none;
-    margin: 20px 7px;
+ul li {
+  list-style: none;
+  margin: 20px 7px;
 }
-ul li a{
+ul li a {
+  text-decoration: none;
+  color: #030303;
+  font-size: 18px;
+}
+ul li a:hover {
+  text-decoration: none;
+  color: #2fa072;
+}
+a:last-child {
+  margin-left: none;
+}
+a:first-child {
+  margin-left: none;
+}
+.navber {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0rem;
+}
+
+@media (max-width: 856.98px) {
+  .navber {
+    display: block;
+  }
+  ul li a {
+    color: #fff;
+  }
+  #sideNav {
+    margin-top: 52px;
+    width: 270px;
+    height: 100vh;
+
+    right: -1110px;
+    position: fixed;
+    z-index: 2;
+    background-color: rgb(32, 42, 43, 1);
+    transition: 0.5s;
+  }
+  #menuBtn {
+    font-size: 1.125rem;
+    z-index: 3;
+    cursor: pointer;
+    display: block;
+  }
+}
+@media (max-width: 767.98px) {
+  ul li a {
     text-decoration: none;
-    color: #030303 ;
+    text-align: center;
+    color: #030303;
     font-size: 18px;
+  }
+  #sideNav {
+    width: 100%;
+    height: 21rem;
+  }
+  .navber {
+    display: block;
+  }
 }
-ul li a:hover{
-    text-decoration: none;
-    color: #2fa072 ;
-}
-a:last-child{
-
-    margin-left: none;
-}
-a:first-child{
-    
-    margin-left: none;
-}
-.navber{
-     display: flex;
-     flex-wrap: wrap; 
-     margin-bottom: 0rem;  
-}
-
-@media (max-width: 856.98px) { 
-    .navber{
-        display: block;
-       
-   }
-   ul li a{
-    color: #fff ;
-}
-    #sideNav{
-        margin-top: 52px;
-        width: 270px;
-        height:100vh;
-       
-        right:-1110px;
-        position: fixed;
-        z-index:2;
-        background-color: rgb(32, 42, 43, 1);
-        transition: .5s;
-    }
-    #menuBtn{
-        font-size: 1.125rem;
-        z-index:3;
-        cursor: pointer;
-        display: block;
-    }
-   
-    
- }
- @media (max-width: 767.98px) { 
-    ul li a{
-        text-decoration: none;
-        text-align: center;
-        color: #030303 ;
-        font-size: 18px;
-    }
-    #sideNav{
-        width: 100%;
-        height:21rem;   
-    }
-    .navber{
-        display: block;
-          
-   }
- }

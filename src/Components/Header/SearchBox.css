@@ -1,0 +1,33 @@
+
+.searchInp{
+    position: relative;
+    top: 40vh;
+    
+}
+.searchBoxMain {
+    display: none;
+    /* margin-top: -200px; */
+    /* position: fixed; */
+}
+.shoSearchBox {
+  display: block;
+  top: 50px;
+  width: 100%;
+  height: 100vh;
+  margin-top: 52px;
+  text-align: center;
+  position: fixed;
+  z-index: 2;
+  background-color: #375b5e79;
+  transition: 0.5s;
+}
+.mainSearchbox{
+    width: 400px;
+    height: 50px;
+    padding: 10px 15px;
+    color: #1b1919;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+}
