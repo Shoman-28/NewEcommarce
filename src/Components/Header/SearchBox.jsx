@@ -3,7 +3,7 @@ import './SearchBox.css';
 const SearchBox = (props) => {
 
     const{show, setShow}=props.searcButton;
-    console.log(show,"searchbox")
+ 
     
     return (
         <div  className={!show ? "shoSearchBox":"searchBoxMain"}>
