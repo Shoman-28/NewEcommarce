@@ -3,7 +3,7 @@ import React from "react";
 import "./Components/CSS/ecommerce.css";
 import "./Components/CSS/fonts.css";
 import "./Components/CSS/style.css";
-import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/css/bootstrap.min.css";
 
 
 import { BrowserRouter as Router, Switch } from "react-router-dom";

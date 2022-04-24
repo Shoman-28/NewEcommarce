@@ -10,6 +10,7 @@ const AddToCard = () => {
 
   return (
     <div className="container">
+      <div className="header-wrap-clone"></div>
       <Table>
         <thead>
           <tr className="custom-table-header">

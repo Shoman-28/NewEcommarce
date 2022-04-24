@@ -1,4 +1,10 @@
+/* @media (max-width: 668px) {
+	.primary-menu {
+	  flex-basis: none;
+	}
+  } */
 
+  
 @media (max-width: 988px) {
 
 	body.stretched #header.full-header .container { padding-right: 0; }

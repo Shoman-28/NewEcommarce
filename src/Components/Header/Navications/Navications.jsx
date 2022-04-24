@@ -1,47 +1,52 @@
-import React from "react";
+import React,{useState} from "react";
 import { Link } from "react-router-dom";
 
-const Navications = () => {
 
+const Navications = (props) => {
+  const {Style, setStyle}=props.value;
+  console.log(Style,"velue")
   return (
-    <nav className="primary-menu style-ecommerce menu-spacing-margin">
-      <ul className="menu-container">
-        <li className="menu-item current">
-          <Link as={Link} to="/home" className="menu-link">
+    <nav id="sideNav" className={!Style && "showNavBar"}>
+      
+      <ul className="navber">
+        <li className="">
+          <Link as={Link} to="/home" className="">
             <div>Home</div>
           </Link>
         </li>
-        <li className="menu-item mega-menu">
-          <a className="menu-link" href="/men">
+        <li className=" mega-menu">
+          <a className="" href="/men">
             <div>Men</div>
           </a>
         </li>
-        <li className="menu-item mega-menu mega-menu-small">
-          <a className="menu-link" href="/women">
+        <li className=" mega-menu mega-menu-small">
+          <a className="" href="/women">
             <div>Women</div>
           </a>
         </li>
-        <li className="menu-item">
-          <Link as={Link} to="/accessories" className="menu-link">
+        <li className="">
+          <Link as={Link} to="/accessories" className="">
             <div>Accessories</div>
           </Link>
         </li>
-        <li className="menu-item">
-          <Link as={Link} to="/sale" className="menu-link">
+        <li className="">
+          <Link as={Link} to="/sale" className="">
             <div>Sale</div>
           </Link>
         </li>
-        <li className="menu-item">
-          <Link as={Link} to="/blog" className="menu-link">
+        <li className="">
+          <Link as={Link} to="/blog" className="">
             <div>Blog</div>
           </Link>
         </li>
-        <li className="menu-item">
-          <Link as={Link} to="/contact" className="menu-link">
+        <li className="">
+          <Link as={Link} to="/contact" className="">
             <div>Contact</div>
           </Link>
         </li>
       </ul>
+      
+      
     </nav>
   );
 };

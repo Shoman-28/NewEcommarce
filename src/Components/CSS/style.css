@@ -2789,7 +2789,7 @@ html[xmlns] .slider-wrap {
 }
 @media (min-width: 992px) {
   .full-header #logo {
-    padding-right: 30px;
+    padding-right: 0px;
     border-right: 1px solid #eee;
   }
   #header.transparent-header.full-header #logo {
@@ -3016,9 +3016,12 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 .mega-menu-content {
   padding-left: 0;
 }
-@media (max-width: 991.98px) {
+
+
+@media (max-width: 991.60px) {
   .primary-menu {
-    max-width: 100%;
+    max-width: 0%;
+   
   }
   .primary-menu > .container {
     max-width: none;
@@ -3113,11 +3116,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
     -ms-flex-align: center;
     align-items: center;
   }
-  .full-header .primary-menu .menu-container {
-    padding-right: 0.5rem;
-    margin-right: 0.5rem;
-    border-right: 1px solid #eee;
-  }
+  
   .transparent-header.full-header .primary-menu .menu-container {
     border-right-color: rgba(0, 0, 0, 0.1);
   }
@@ -3938,11 +3937,16 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
   display: -ms-flexbox;
   display: flex;
   align-items: center;
-  margin-left: 15px;
+  margin-left: 0;
 }
 .header-misc-element,
 .header-misc-icon {
-  margin: 0 8px;
+  margin: 0 25px;
+  border-left: 1px solid #EEE;
+  transition: all .3s ease;
+  padding: 38px 1.50rem;
+  margin: 0;
+
 }
 .header-misc-icon > a {
   display: block;
@@ -3958,7 +3962,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
   transition: color 0.3s ease-in-out;
 }
 @media (min-width: 992px) {
-  .header-misc:not([class*="order-"]) {
+  .header-misc:not([className*="order-"]) {
     -ms-flex-order: 6;
     order: 6;
   }
