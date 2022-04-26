@@ -1,0 +1,133 @@
+.user-login-from {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  background: #e8e2e24a;
+  border-radius: 10px;
+}
+
+.logIn-photo {
+  width: 100%;
+  height: 180px;
+}
+
+.singIn h3 {
+  font-weight: 300;
+  line-height: 1.5;
+  margin-bottom: 1.5rem !important;
+  font-family: "Lato", Arial, sans-serif;
+  color: #000000ba;
+}
+
+.login-midia span {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  font-size: 28px;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+
+.login-midia span:first-child {
+  margin-right: 16px;
+}
+
+.login-midia span:hover {
+  color: #01d28e;
+  outline: none !important;
+  text-decoration: none !important;
+}
+.login-midia .facebook{
+    color: #0063cc;
+}
+.login-midia .facebook:hover{
+    color: #01d28e;
+}
+.login-midia .google{
+    color: #f4ac11e3;
+}
+.login-midia .google:hover{
+    color: #01d28e;
+}
+
+.user-login-inputfrom{
+    height: 48px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid #01d28e;
+    padding: 0.375rem 0.75rem;
+    font-weight: 400;
+    background: #fff;
+    color: #000000cf;
+    font-size: 16px;
+    border-radius: 5px;
+ 
+}
+
+.user-login-button{
+    height: 48px;
+    border-radius: 5px;
+    width: 100%;
+    background: #01d28e ;
+    border: 1px solid #01d28e;
+    color: #fff;
+}
+
+.user-remember input{
+    margin-right: 10px;
+}
+
+.user-remember label{
+    display: inline;
+    margin-right: 10px;
+    text-transform: capitalize;
+    color: #01d28e;
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: normal;
+}
+
+.user-remember-input {
+    background-color: #fff;
+    margin-top: 0.4em !important;
+}
+
+.user-remember-input:checked {
+    background-color: #01d28e !important;
+    border-color: #01d28e !important;
+}
+
+.forgot-pasword h6{
+    text-transform: capitalize;
+    color: gray;
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: normal;
+    
+}
+.forgot-pasword h6:hover{
+    color: #01d28e;
+    cursor: pointer;
+   
+}
+
+.Not-singUp h6{
+    
+    color: gray;;
+    
+}
+
+.Not-singUp a{
+    color: #01d28e;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer !important;
+    
+}

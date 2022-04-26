@@ -3,12 +3,14 @@ import Main from '../pages/Main/index'
 // import AllProduct from './../Components/Product/AllProduct';
 import AllProduct from '../Components/BestSellProduct/BestSellProduct';
 
-import ShoppingCard from '../Components/Home/ShoppingCard/ShoppingCard';
+// import ShoppingCard from '../Components/Home/ShoppingCard/ShoppingCard';
 import AddToCard from '../Components/AddToCard/AddToCard';
 
 import Contact from './../Components/ContactPage/Contact';
 import Blog from './../Components/Blog/Blog';
 import BlogDetails from './../Components/Blog/BlogDetails';
+import LoginFrom from '../Components/LoginFrom/index';
+import CreateAcount from './../Components/LoginFrom/CreatAcount/Index';
 
 const publicRoutes=[
     { path: "/", exact: true, component: Main },
@@ -25,6 +27,9 @@ const publicRoutes=[
     { path: "/contact", component: Contact },
     
     { path: "/viewCart", component: AddToCard },
+    { path: "/userLogin", component: LoginFrom },
+    { path: "/createAcount", component: CreateAcount },
+
 ]
 
 const authProtectedRoutes=[
