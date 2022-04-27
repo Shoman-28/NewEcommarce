@@ -47,7 +47,7 @@ a:first-child {
     right: -1110px;
     position: fixed;
     z-index: 2;
-    background-color: rgb(32, 42, 43, 1);
+    background-color: #20292bcc;
     transition: 0.5s;
   }
   #menuBtn {

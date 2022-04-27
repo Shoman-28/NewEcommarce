@@ -7,6 +7,7 @@ import {
   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { faSkype, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import GoogleMap from './GoogleMap';
 const Contact = () => {
     return (
 		<section id="content">
@@ -14,8 +15,7 @@ const Contact = () => {
 				<div className="container clearfix">
 
 					<div className="row align-items-stretch col-mb-50 mb-0">
-						{/* -- Contact Form
-						============================================= -- */}
+						{/* -- Contact Form============================================= -- */}						
 						<div className="col-lg-6">
 
 							<div className="fancy-title title-border">
@@ -91,18 +91,17 @@ const Contact = () => {
 							</div>
 
 						</div>
-                        {/* <!-- Contact Form End --> */}
 
-						{/*-- Google Map
-						 ============================================= -- */}
-						<div className="col-lg-6 min-vh-50">
-							<div className="gmap h-100" data-latitude="-37.813629" data-longitude="144.963058" data-markers='[{latitude:-37.813629, longitude:144.963058, html: "<div className=\"p-2\" style=\"width: 300px;\"><h4 className=\"mb-2\">Hi! We are <span>Envato!</span></h4><p className=\"mb-0\" style=\"font-size:1rem;\">Our mission is to help people to <strong>earn</strong> and to <strong>learn</strong> online. We operate <strong>marketplaces</strong> where hundreds of thousands of people buy and sell digital goods every day.</p></div>", icon:{ image: "images/icons/map-icon-red.png", iconsize: [32, 39], iconanchor: [32,39] } }]'></div>
+						{/*-- Google Map ============================================= -- */}						
+
+						<div className="col-lg-6 min-vh-50">							
+							<div className="gmap h-100" >
+							<GoogleMap/>
+							</div>
 						</div>
-                        {/* <!-- Google Map End --> */}
 					</div>
 
-					{/* -- Contact Info
-					============================================= -- */}
+					{/* -- Contact Info ============================================= -- */}					
 					<div className="row col-mb-50">
 						<div className="col-sm-6 col-lg-3">
 							<div className="feature-box fbox-center fbox-bg fbox-plain">

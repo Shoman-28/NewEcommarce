@@ -22,7 +22,7 @@ const Header = () => {
   const [show, setShow] = useState(true);
 
   return (
-    <div id="header" className="full-header no-sticky" data-menu-padding="30">
+    <div className="sticky-top" data-menu-padding="30">
       <div id="header-wrap">
         <div className="contain">
           <div className="header-row align-items-center-stretch">

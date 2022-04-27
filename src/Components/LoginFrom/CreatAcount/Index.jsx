@@ -38,14 +38,31 @@ const Index = () => {
 
                 <div className="mt-4">
                 <form onSubmit={handleSubmit(onSubmit)}>
+                <div className="mb-2">
+                        <input fastName="fastName" type="text" {...register("fastName", { required: true })} className="user-login-inputfrom"  placeholder='Fast Name'/>
+                        {errors.fastName && <span style={{color:"red", fontSize:"12px"}}>Please Enter your Fast Name</span>}
+                        </div>
                         <div className="mb-2">
-                        <input email="email" {...register("email", { required: true })} className="user-login-inputfrom"  placeholder='Email'/>
+                        <input lastName="lastName" type="text" {...register("lastName", { required: true })} className="user-login-inputfrom"  placeholder='Last Name'/>
+                        {errors.lastName && <span style={{color:"red", fontSize:"12px"}}>Please Enter your Last Name</span>}
+                        </div>
+                        <div className="mb-2">
+                        <input phoneNumber="phoneNumber" type="number" {...register("phoneNumber", { required: true })} className="user-login-inputfrom"  placeholder='Mobail Number'/>
+                        {errors.phoneNumber && <span style={{color:"red", fontSize:"12px"}}>Please Enter your Phone Number</span>}
+                        </div>
+                        <div className="mb-2">
+                        <input email="email" type="text" {...register("email", { required: true })} className="user-login-inputfrom"  placeholder='Email'/>
                         {errors.email && <span style={{color:"red", fontSize:"12px"}}>Please Enter your email</span>}
                         </div>
                         
                         <div className="mb-2">
                         <input passwoard="passwoard" type="password" {...register("passwoard", { required: true })} className="user-login-inputfrom"   placeholder='Passwoard'/>
-                        {errors.passwoard && <span style={{color:"red", fontSize:"12px"}}>Please Enter your email</span>}
+                        {errors.passwoard && <span style={{color:"red", fontSize:"12px"}}>Please Enter your Passwoard</span>}
+                        </div>
+                        
+                        <div className="mb-2">
+                        <input passwoard="passwoard" type="password" {...register("passwoard", { required: true })} className="user-login-inputfrom"   placeholder='Confirm Passwoard'/>
+                        {errors.passwoard && <span style={{color:"red", fontSize:"12px"}}>Please Confirm your Passwoard</span>}
                         </div>
                      
                         

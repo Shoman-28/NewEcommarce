@@ -66,6 +66,20 @@ const product = [
       img: productImg7,
       quantity: 3,
     },
+    {
+      id: 9,
+      name: "Sun glasses and shopping bags",
+      price: "11.09",
+      img: productImg0,
+      quantity: 1,
+    },
+    {
+      id: 10,
+      name: "Sun glasses and shopping bags",
+      price: "11.09",
+      img: productImg0,
+      quantity: 1,
+    },
   ];
 
   export default product;
