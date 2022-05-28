@@ -4,6 +4,7 @@ import Footer from './../Components/Shared/Footer/Footer';
 import product from "../common/data/Products";
 
 
+
 export const productsContext = createContext();
 
 const LayOut = ({  children }) => {

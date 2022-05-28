@@ -1,8 +1,7 @@
-@media (prefers-reduced-motion: no-preference) {
-  :root {
-    scroll-behavior: auto;
-  }
+:root{
+  scroll-behavior: auto;
 }
+
 @media (min-width: 576px) {
   .card-columns {
     -webkit-column-count: 3;
@@ -16,6 +15,7 @@
   }
   .card-columns.grid-2 {
     -webkit-column-count: 2;
+    
     -moz-column-count: 2;
     column-count: 2;
   }
