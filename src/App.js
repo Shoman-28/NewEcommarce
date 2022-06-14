@@ -2,7 +2,7 @@ import "./App.css";
 import React from "react";
 import "./Components/CSS/ecommerce.css";
 import "./Components/CSS/fonts.css";
-import "./Components/CSS/style.css";
+// import "./Components/CSS/style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -17,7 +17,7 @@ import LayOut from "./Layout";
 
 const App = (props) => {
   return (
-    <React.Fragment>
+     <React.Fragment>
       <Router>
         <Switch>
           {publicRoutes.map((route, idx) => (

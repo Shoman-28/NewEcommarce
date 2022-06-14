@@ -6,6 +6,7 @@ import { Modal } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 import { Link } from "react-router-dom";
 import { productsContext } from './../../../Layout/index';
+import './HeaderCard.css';
 
 
 

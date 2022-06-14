@@ -1,5 +1,4 @@
 import React from 'react';
-import Contents from './Contents/Contents';
 import Gallery from './Gallery/Gallery';
 import Slider from './Slider/Slider';
 import BestSellProduct from '../BestSellProduct/BestSellProduct';
@@ -21,10 +20,12 @@ const Home = () => {
     return (
         < >
             <Slider/>            
-            <Contents/>
-            <Gallery/>
-            <BestSellProduct/>
+            
             <FeaturedItems/>
+            <BestSellProduct/>
+            
+            
+            <Gallery/>
             <ManAndWomen/>
             <ShopCategories/>
             <ShoppingCard/>

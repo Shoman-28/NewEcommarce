@@ -22,10 +22,9 @@ const Header = () => {
   const [show, setShow] = useState(true);
 
   return (
-    <div className="sticky-top" data-menu-padding="30">
-      <div id="header-wrap">
-        <div className="contain">
-          <div className="header-row align-items-center-stretch">
+    <div className="sticky-top header-bg">
+     
+          <div className="d-flex justify-content-between align-items-center">
 
             <div id="logo">
               <a href="/" className="standard-logo">
@@ -40,7 +39,7 @@ const Header = () => {
             {/*======== SearchBox======== */}
             <SearchBox searcButton={{ show, setShow }} />
 
-            <div className="header-misc align-items-center-stretch">
+            <div className="d-flex align-items-center">
 
               <div className="header-misc-icon" >
                 <span style={{ cursor: "pointer" }}>
@@ -55,7 +54,9 @@ const Header = () => {
                 </span>
               </div>
 
+              <div className="">
               <HeaderCard />
+              </div>
 
               <div className="header-misc-icon">
                 <a href="/userLogin">
@@ -71,8 +72,7 @@ const Header = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+       
       <div className="header-wrap-clone"></div>
     </div>
   );
