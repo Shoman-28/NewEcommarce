@@ -8,7 +8,7 @@ import {
   faTwitter,
   faVimeo,
 } from "@fortawesome/free-brands-svg-icons";
-
+import './Footer.css';
 const Footer = () => {
   return (
     <div>

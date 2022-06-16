@@ -413,7 +413,12 @@
 .payment-cards li {
 	display: inline-block;
 	margin: 0 5px;
+	
+}
+.payment-cards li img{
+	margin: 0 5px;
 	width: 44px;
+	height: 44px;
 }
 
 .widget.subscribe-widget .form-control {
@@ -441,6 +446,7 @@
 	height: 24px;
 	font-size: 25px !important;
 	line-height: 23px !important;
+	margin: 5px;
 }
 
 .social-icon.si-mini:hover i:first-child { margin-top: -23px; }

@@ -6,7 +6,7 @@ import pp from "../../../image/card/pp.svg";
 import sk from "../../../image/card/sk.svg";
 import c2co from "../../../image/card/2co.svg";
 import wu from "../../../image/card/wu.svg";
-
+import './ShoppingCard.css';
 const ShoppingCard = () => {
   const cardImage = [
     { img: visa },
