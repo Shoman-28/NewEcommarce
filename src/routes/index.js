@@ -9,7 +9,7 @@ import Blog from './../Components/Blog/Blog';
 import BlogDetails from './../Components/Blog/BlogDetails';
 import LoginFrom from '../Components/LoginFrom/IndexLogin';
 import CreateAcount from '../Components/LoginFrom/CreatAcount/CreatAcount';
-// jka
+
 const publicRoutes=[
     { path: "/", exact: true, component: Main },
     { path: "/home", component: Main },
@@ -23,9 +23,10 @@ const publicRoutes=[
     { path: "/contact", component: Contact },
     
     { path: "/viewCart", component: AddToCard },
-    { path: "/userLogin", component: LoginFrom },
-    { path: "/createAcount", component: CreateAcount },
 
+    { path: "/userLogin", component: LoginFrom },
+    
+    { path: "/createAcount", component: CreateAcount },
 ]
 
 const authProtectedRoutes=[
