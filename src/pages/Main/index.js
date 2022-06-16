@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "../../Components/Home/Home";
 
-const index = () => {
+const Index = () => {
   return (
     <React.Fragment>
       <Home />
@@ -9,4 +9,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

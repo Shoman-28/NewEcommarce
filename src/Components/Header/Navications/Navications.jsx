@@ -3,33 +3,33 @@ import { Link } from "react-router-dom";
 
 
 const Navications = (props) => {
-  const {Style, setStyle}=props.value;
+  const { Style } = props.value;
 
-  
+
   return (
     <nav id="sideNav" className={!Style && "showNavBar"}>
-      
+
       <ul className="navber">
         <li className="">
           <Link as={Link} to="/home" className="">
             <div>Home</div>
           </Link>
         </li>
-        <li className=" mega-menu">
-        <Link as={Link} to="/men" className="">
-          
+        {/* <li className=" mega-menu">
+          <Link as={Link} to="/men" className="">
+
             <div>Men</div>
           </Link>
         </li>
         <li className=" mega-menu mega-menu-small">
-        <Link as={Link} to="/women" className="">
-          
+          <Link as={Link} to="/women" className="">
+
             <div>Women</div>
-          
+
           </Link>
-        </li>
+        </li> */}
         <li className="">
-          <Link as={Link} to="/accessories" className="">
+          <Link as={Link} to="/porduct" className="">
             <div>Accessories</div>
           </Link>
         </li>
@@ -49,8 +49,8 @@ const Navications = (props) => {
           </Link>
         </li>
       </ul>
-      
-      
+
+
     </nav>
   );
 };

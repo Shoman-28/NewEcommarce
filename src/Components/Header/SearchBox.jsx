@@ -2,7 +2,7 @@ import React from 'react';
 import './SearchBox.css';
 const SearchBox = (props) => {
 
-    const{show, setShow}=props.searcButton;
+    const{show}=props.searcButton;
  
     
     return (
