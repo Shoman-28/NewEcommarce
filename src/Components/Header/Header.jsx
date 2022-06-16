@@ -15,6 +15,7 @@ import Navications from "./Navications/Navications";
 import SearchBox from "./SearchBox";
 
 import logo from '../../image/logo.png'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -59,9 +60,10 @@ const Header = () => {
               </div>
 
               <div className="header-misc-icon">
-                <a href="/userLogin">
+              <Link as={Link} to="/userLogin" className="">
+                
                   <FontAwesomeIcon icon={faUser} />
-                </a>
+                </Link>
               </div>
 
               <div id="menuBtn" className="header-misc-icon">

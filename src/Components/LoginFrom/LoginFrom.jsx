@@ -6,6 +6,7 @@ import { faFacebook, faGoogle } from '@fortawesome/free-brands-svg-icons';
 
 import './LoginFrom.css';
 import loginBg from '../../image/login-1.jpg'
+import { Link } from 'react-router-dom';
 
 
 const LoginFrom = () => {
@@ -65,7 +66,7 @@ const LoginFrom = () => {
                 </div>
                 
                 <div className="text-center mt-4 pb-5 Not-singUp">
-                    <h6>Not a member? <a href="/createAcount">Sign Up</a></h6>
+                    <h6>Not a member? <Link as={Link} to="/createAcount" className="">Sign Up</Link></h6>
                 </div>
             </div>
 

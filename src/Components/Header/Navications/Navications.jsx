@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 
@@ -16,14 +16,17 @@ const Navications = (props) => {
           </Link>
         </li>
         <li className=" mega-menu">
-          <a className="" href="/men">
+        <Link as={Link} to="/men" className="">
+          
             <div>Men</div>
-          </a>
+          </Link>
         </li>
         <li className=" mega-menu mega-menu-small">
-          <a className="" href="/women">
+        <Link as={Link} to="/women" className="">
+          
             <div>Women</div>
-          </a>
+          
+          </Link>
         </li>
         <li className="">
           <Link as={Link} to="/accessories" className="">

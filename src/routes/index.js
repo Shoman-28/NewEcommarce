@@ -7,8 +7,8 @@ import AddToCard from '../Components/AddToCard/AddToCard';
 import Contact from './../Components/ContactPage/Contact';
 import Blog from './../Components/Blog/Blog';
 import BlogDetails from './../Components/Blog/BlogDetails';
-import LoginFrom from '../Components/LoginFrom/index';
-import CreateAcount from './../Components/LoginFrom/CreatAcount/Index';
+import LoginFrom from '../Components/LoginFrom/IndexLogin';
+import CreateAcount from '../Components/LoginFrom/CreatAcount/CreatAcount';
 
 const publicRoutes=[
     { path: "/", exact: true, component: Main },
